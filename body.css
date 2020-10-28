@@ -164,3 +164,13 @@
   -o-transform: scale(1.5);
   transform: scale(1.5);
 }
+@media screen and (max-width: 768px) {
+  .image-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 480px) {
+  .image-card-container {
+    grid-template-columns: 1fr;
+  }
+}
