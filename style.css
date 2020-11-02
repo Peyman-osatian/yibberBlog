@@ -394,46 +394,7 @@ header nav span {
   margin-left: 49px;
 }
 /*responsive Query*/
-/*************************1025px *******************/
-@media screen and (min-width: 1025px) {
-  .container_expressYourself p {
-    font-size: 135px;
-  }
-  .second_express p {
-    font-size: 135px;
-  }
-  .footer_wrapper {
-    width: 100%;
-    height: 88px;
-    position: relative;
-    top: 1860px;
-  }
-  .line_blog {
-    width: 91%;
-    position: absolute;
-    display: block;
-    top: -26%;
-    margin-left: 44px;
-  }
-  .inTextCard_blog_main {
-    position: relative;
-    text-align: left;
-    top: 445px;
-    color: white;
-    font-size: 30px;
-    margin-left: 34px;
-    font-family: "Baloo 2", cursive;
-    line-height: 30px;
-  }
-  .card_more p {
-    font-size: 78px;
-    text-align: center;
-    position: absolute;
-    left: 18%;
-    top: 30%;
-    font-family: "Baloo 2", cursive;
-  }
-}
+
 /*Tablet Query*/
 /**************************768px*****************/
 @media only screen and (max-width: 768px) {
